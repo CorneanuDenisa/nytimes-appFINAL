@@ -3,9 +3,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-    background-color: #eee ;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background: url('https://i.pinimg.com/564x/f6/8b/e0/f68be0df489b62dfe1c127cb3df27eb1.jpg') no-repeat center/cover;
+   
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
@@ -13,10 +14,7 @@ code {
     monospace;
 }
 
-.showcase{
-    background: url('https://images.pexels.com/photos/723072/pexels-photo-723072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center/cover;
-    height: 400px ;
-}
+
 .showcase.overlay{
     background-color: rgb(239, 235, 229) ;
     height: 400px;

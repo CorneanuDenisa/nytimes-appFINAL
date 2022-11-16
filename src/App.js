@@ -29,10 +29,10 @@ useEffect(()=> {
   return (
    <>  <div className='showcase'>
             <div className='overlay px-5'>
-              <br></br><h1 className='text-4xl font-bold text-white text-center mb-4 capitalize lg:text-6xl'> Viewing articles about {term}</h1>
-              
-              <SearchForm searchText={(text)=> setTerm(text)}/>
-
+            <br></br><br></br><br></br><br></br><h1 className='text-4xl font-bold text-white text-center mb-4 capitalize lg:text-6xl aling:center'> Viewing articles about {term}</h1>
+              <br></br><br></br>
+              <SearchForm  className='text-align' searchText={(text) => setTerm(text)}/>
+            
             </div>
        </div>
 

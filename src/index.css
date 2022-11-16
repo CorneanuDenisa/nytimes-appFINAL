@@ -15,10 +15,10 @@ code {
 
 .showcase{
     background: url('https://images.pexels.com/photos/723072/pexels-photo-723072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center/cover;
-    height: 330px ;
+    height: 400px ;
 }
 .showcase.overlay{
-    background-color: antiquewhite ;
+    background-color: rgb(239, 235, 229) ;
     height: 400px;
     display: flex;
     flex-direction: column;
